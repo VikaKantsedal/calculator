@@ -54,6 +54,6 @@ for (var i = 0; i < parsedInputs.buttons.length; i++) {
 
 parsedInputs.reset.addEventListener("click", function () {
     if(this.getAttribute("value") === "clear") {
-        field.innerText = "";
+        field.innerText = rowValue = "";
     }
 });
